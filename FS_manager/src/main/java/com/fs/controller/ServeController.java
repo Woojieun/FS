@@ -45,4 +45,17 @@ public class ServeController {
         return "redirect:/admin_main";
         
     }
+    
+    /* 로그아웃 */
+    @RequestMapping(value="logout", method=RequestMethod.GET)
+    public String logoutMainGET(HttpServletRequest request) throws Exception{
+
+        
+        logger.info("logoutMainGET메서드 진입");
+        
+        HttpSession session = request.getSession();
+        session.invalidate();
+        
+        return "redirect:/login";
+    }
 }

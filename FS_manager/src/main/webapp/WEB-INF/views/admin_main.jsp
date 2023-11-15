@@ -12,6 +12,7 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="/resources/css/sidebar.css">
     <link rel="stylesheet" href="/resources/css/chanmi.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
 </head>
 
 <body>
@@ -54,7 +55,7 @@
                             </div>
                         </li>
                         <li class="nav-item fixed-bottom">
-                            <a class="nav-link" href="#" id="logout">로그아웃</a>
+                            <a class="nav-link" href="/logout" id="logout">로그아웃</a>
                         </li>
                     </ul>
                 </div>
@@ -117,6 +118,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>
+    
 </body>
 
 </html>
