@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
+
 <!doctype html>
 <html>
 
@@ -58,74 +58,82 @@
                     </ul>
                 </div>
             </nav>
-
+            
             <!-- 메인 콘텐츠 -->
             <main class="col-md-6 ms-sm-auto col-lg-10 px-md-4 mt-5">
-                <h1>당일/정기/예약</h1>
-
-                <div class="row mb-3">
-                    <div class="col-md-3">
-                        <label for="deliveryType">배송 유형:</label>
-                        <select id="deliveryType" class="form-select">
-                            <option value="all">전체</option>
-                            <option value="today">당일 배송</option>
-                            <option value="regular">정기 배송</option>
-                            <option value="reserved">예약 배송</option>
-                        </select>
+                <h1>사용자</h1>
+                <br>
+                <div class="row mb-6">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <select id="Type" class="form-select">
+                                <option value="all">인증상태</option>
+                                <option value="all">전체</option>
+                            </select>
+                        </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <label for="orderStatus">주문 상태:</label>
-                        <select id="orderStatus" class="form-select">
-                            <option value="all">전체</option>
-                            <option value="confirmed">입금 확인</option>
-                            <option value="completed">입금 완료</option>
-                            <option value="shipping">배송 중</option>
-                            <option value="delivered">배송 완료</option>
-                        </select>
-                    </div>
-
-                    <div class="col-md-3">
-                        <label for="orderDate">주문 일자:</label>
-                        <input type="date" id="orderDate" class="form-control">
-                    </div>
-
-                    <div class="col-md-3 mt-4">
-                        <button class="btn btn-primary">조회</button>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="이름 또는 이메일을 입력하세요." aria-label="검색어를 입력하세요" aria-describedby="searchButton">
+                            <button class="btn btn-primary" type="button" id="searchButton">검색</button>
+                        </div>
                     </div>
                 </div>
 
-                <table class="table">
+                <br>
+
+                <table class="table table-bordered table-hover text-center">
                     <thead>
                         <tr>
-                            <th>주문 번호</th>
-                            <th>주문 상태</th>
-                            <th>주문 내용</th>
-                            <th>주문자</th>
-                            <th>주문 일자</th>
-                            <th>배송 주기</th>
+                            <td><input type="checkbox"></td>
+                            <th>대표자</th>
+                            <th>아이디</th>
+                            <th>누적 금액</th>
+                            <th>이메일</th>
+                            <th>전화번호</th>
+                            <th>가입일</th>
                             <th>상세 보기</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td>입금 확인</td>
-                            <td>상품 A 구매</td>
-                            <td>고객1</td>
-                            <td>2023-10-10</td>
-                            <td>1개월</td>
-                            <td><a href="admin_delivery_details.html" class="btn btn-primary">상세 보기</a></td>
+                            <td><input type="checkbox"></td>
+                            <td>홍길동</td>
+                            <td>hh</td>
+                            <td>500,000</td>
+                            <td>hh@gmail.com</td>
+                            <td>010-0101-0101</td>
+                            <td>2023-10-28</td>
+                            <td><a href="member_details.html" class="btn btn-primary" id="detailButton">상세 보기</a></td>
                         </tr>
-                        <!-- 다른 주문들을 이곳에 추가 -->
+                        <!-- 이곳에 추가 -->
                     </tbody>
                 </table>
+                <nav aria-label="페이지 탐색" class="d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="이전">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="다음">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </main>
+
         </div>
     </div>
 
-    <!-- Bootstrap 및 jQuery 스크립트 로드 -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!-- Bootstrap 및 jQuery 스크립트 로드 -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>

@@ -58,66 +58,69 @@
                     </ul>
                 </div>
             </nav>
-
+            
             <!-- 메인 콘텐츠 -->
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 mt-5">
-                <h1>배송 상세 정보</h1>
+                <h1>회원 상세 정보</h1>
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"></div>
+                <!-- <h5>기본 정보</h5> -->
                 <div class="col-md-9 ms-sm-auto text-center">
-                    <div class="row mt-2 py-3"> <!-- 여기에 py-3 클래스 추가 -->
+                    <div class="row mt-2 py-1"> <!-- 여기에 py-3 클래스 추가 -->
                         <div class="col-md-2">
-                            <strong>주문 번호 :</strong>
+                            <strong>아이디 :</strong>
                         </div>
                         <div class="col-md-2">
-                            1
+                            hh
                         </div>
                         <div class="col-md-2">
-                            <strong>주문 상태 :</strong>
+                            <strong>등급 :</strong>
                         </div>
                         <div class="col-md-2">
-                            <span class="editable" contenteditable="true">입금 확인</span>
+                            <span class="editable" contenteditable="true">회원</span>
                         </div>
                     </div>
                     <div class="row mt-2 py-3"> <!-- 여기에 py-3 클래스 추가 -->
                         <div class="col-md-2">
-                            <strong>주문 내용 :</strong>
+                            <strong>대표자명 :</strong>
                         </div>
                         <div class="col-md-2">
-                            <span class="editable" contenteditable="true">상품 A 구매</span>
+                            <span class="editable" contenteditable="true">홍길동</span>
                         </div>
                         <div class="col-md-2">
-                            <strong>주문자 :</strong>
+                            <strong>회사명 :</strong>
                         </div>
                         <div class="col-md-2">
-                            <span class="editable" contenteditable="true">고객1</span>
+                            <span class="editable" contenteditable="true">삼성</span>
                         </div>
                     </div>
                     <div class="row mt-2 py-3"> <!-- 여기에 py-3 클래스 추가 -->
                         <div class="col-md-2">
-                            <strong>주문 일자 :</strong>
+                            <strong>전화번호 :</strong>
                         </div>
                         <div class="col-md-2">
-                            <span class="editable" contenteditable="true">2023-10-10</span>
+                            <span class="editable" contenteditable="true">010-0101-0101</span>
                         </div>
                         <div class="col-md-2">
-                            <strong>배송 주기 :</strong>
+                            <strong>이메일 :</strong>
                         </div>
                         <div class="col-md-2">
-                            <span class="editable" contenteditable="true">1개월</span>
+                            <span class="editable" contenteditable="true">hh@gmail.com</span>
                         </div>
                     </div>
-                    <div class="row mt-2 py-3">
+                    <div class="row mt-2 py-3"> <!-- 여기에 py-3 클래스 추가 -->
                         <div class="col-md-2">
-                            <strong>주문 취소 :</strong>
+                            <strong>주소 :</strong>
                         </div>
-                        <!-- <div class="col-md-4">
-                            <p class="mb-0">취소하면 영구 삭제됩니다.</p>
-                        </div> -->
-                        <div class="col-md-2 text-end">
-                            <button class="btn btn-danger" id="deleteButton">영구 삭제</button>
+                        <div class="col-md-2">
+                            <span class="editable" contenteditable="true">서울시 강북구</span>
+                        </div>
+                        <div class="col-md-2">
+                            <strong>가입일 :</strong>
+                        </div>
+                        <div class="col-md-2">
+                            <span class="editable" contenteditable="true">2023-10-28</span>
                         </div>
                     </div>
-                    
                     <div class="row mt-2 py-3"> <!-- 여기에 py-3 클래스 추가 -->
                         <div class="col-md-8 text-end">
                             <button class="btn btn-primary" id="editButton">수정</button>
@@ -130,8 +133,8 @@
         </div>
     </div>
 
-    <!-- Bootstrap 및 jQuery 스크립트 로드 -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!-- Bootstrap 및 jQuery 스크립트 로드 -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>

@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class MYSQLtest {
 	
-	private static final String DRIVER = "net.sf.log4jdbc.sql.jdbcapi.DriverSpy";
+	private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 	private static final String URL = "jdbc:mysql://127.0.0.1:3306/FS"; // jdbc:mysql://127.0.0.1:3306/여러분이 만드신 스키마이름
 	private static final String USER = "root"; //DB 사용자명
 	private static final String PW = "1234";   //DB 사용자 비밀번호

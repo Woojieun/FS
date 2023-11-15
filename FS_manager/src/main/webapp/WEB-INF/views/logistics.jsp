@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+    
 <!doctype html>
 <html>
 
@@ -60,73 +60,74 @@
             </nav>
 
             <!-- 메인 콘텐츠 -->
-            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 mt-5">
-                <h1>배송 상세 정보</h1>
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"></div>
-                <div class="col-md-9 ms-sm-auto text-center">
-                    <div class="row mt-2 py-3"> <!-- 여기에 py-3 클래스 추가 -->
-                        <div class="col-md-2">
-                            <strong>주문 번호 :</strong>
-                        </div>
-                        <div class="col-md-2">
-                            1
-                        </div>
-                        <div class="col-md-2">
-                            <strong>주문 상태 :</strong>
-                        </div>
-                        <div class="col-md-2">
-                            <span class="editable" contenteditable="true">입금 확인</span>
+            <main class="col-md-6 ms-sm-auto col-lg-10 px-md-4 mt-5">
+                <h1>물류 인력</h1>
+                <br>
+                <div class="row mb-6">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <select id="Type" class="form-select">
+                                <option value="all">상담 인력</option>
+                                <option value="all">문의 인력</option>
+                                <option value="all">배송 인력</option>
+                                <option value="all">창고 인력</option>
+                            </select>
                         </div>
                     </div>
-                    <div class="row mt-2 py-3"> <!-- 여기에 py-3 클래스 추가 -->
-                        <div class="col-md-2">
-                            <strong>주문 내용 :</strong>
-                        </div>
-                        <div class="col-md-2">
-                            <span class="editable" contenteditable="true">상품 A 구매</span>
-                        </div>
-                        <div class="col-md-2">
-                            <strong>주문자 :</strong>
-                        </div>
-                        <div class="col-md-2">
-                            <span class="editable" contenteditable="true">고객1</span>
-                        </div>
-                    </div>
-                    <div class="row mt-2 py-3"> <!-- 여기에 py-3 클래스 추가 -->
-                        <div class="col-md-2">
-                            <strong>주문 일자 :</strong>
-                        </div>
-                        <div class="col-md-2">
-                            <span class="editable" contenteditable="true">2023-10-10</span>
-                        </div>
-                        <div class="col-md-2">
-                            <strong>배송 주기 :</strong>
-                        </div>
-                        <div class="col-md-2">
-                            <span class="editable" contenteditable="true">1개월</span>
-                        </div>
-                    </div>
-                    <div class="row mt-2 py-3">
-                        <div class="col-md-2">
-                            <strong>주문 취소 :</strong>
-                        </div>
-                        <!-- <div class="col-md-4">
-                            <p class="mb-0">취소하면 영구 삭제됩니다.</p>
-                        </div> -->
-                        <div class="col-md-2 text-end">
-                            <button class="btn btn-danger" id="deleteButton">영구 삭제</button>
-                        </div>
-                    </div>
-                    
-                    <div class="row mt-2 py-3"> <!-- 여기에 py-3 클래스 추가 -->
-                        <div class="col-md-8 text-end">
-                            <button class="btn btn-primary" id="editButton">수정</button>
-                            <button class="btn btn-secondary" id="cancelButton">취소</button>
+
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="검색어를 입력하세요." aria-label="검색어를 입력하세요"
+                                aria-describedby="searchButton">
+                            <button class="btn btn-primary" type="button" id="searchButton">검색</button>
                         </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"></div>
+
+                <br>
+
+                <table class="table table-bordered table-hover text-center">
+                    <thead>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <th>번호</th>
+                            <th>이름</th>
+                            <th>이메일</th>
+                            <th>전화번호</th>
+                            <th>부서</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>홍길동</td>
+                            <td>hh@gmail.com</td>
+                            <td>010-0101-0101</td>
+                            <td>부서</td>
+                        </tr>
+                        <!-- 이곳에 추가 -->
+                    </tbody>
+                </table>
+                <nav aria-label="페이지 탐색" class="d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="이전">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="다음">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </main>
+
         </div>
     </div>
 

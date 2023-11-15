@@ -10,7 +10,7 @@ import org.junit.Test;
 public class JDBCtest {
     static { 
         try { 
-            Class.forName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy"); 
+            Class.forName("com.mysql.cj.jdbc.Driver"); 
         } catch(Exception e) { 
             e.printStackTrace(); 
         } 
