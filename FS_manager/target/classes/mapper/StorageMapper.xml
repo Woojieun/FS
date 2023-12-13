@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.fs.mapper.StorageMapper">
+ 
+    <select id="getAllStorage" resultType="com.fs.model.StorageVO">
+        SELECT con_num, con_variety, con_id, u_company, con_product, con_status FROM container;
+    </select>
+    
+    <insert id="insertStorage" parameterType="com.fs.model.StorageVO">
+    <!-- 실제 데이터베이스에 삽입하기 위한 SQL 쿼리를 여기에 작성하세요 -->
+    INSERT INTO container (u_id, u_company, con_id, con_variety, con_product, con_pro_variety, con_status)
+    VALUES (#{u_id}, #{u_company}, #{con_id}, #{con_variety}, #{con_product}, #{con_pro_variety}, #{con_status} )
+	</insert>
+  </mapper>
