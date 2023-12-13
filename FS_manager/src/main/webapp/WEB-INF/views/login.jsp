@@ -28,7 +28,7 @@
 
                     <div class="form-group">
                         <label for="password">비밀번호</label>
-                        <input type="text" id="password" name="m_pw" class="pw_input form-control">
+                        <input type="password" id="password" name="m_pw" class="pw_input form-control">
                     </div>
                     
                     <c:if test = "${result == 0 }">

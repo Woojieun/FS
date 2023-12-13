@@ -42,8 +42,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="deliveryDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                문의
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 문의
                             </a>
                             <div class="dropdown-menu" aria-labelledby="inquiryDropdown">
                                 <a class="dropdown-item" href="/inquiry">문의</a>
@@ -97,7 +96,6 @@
                             </select>
                             <input class="form-control me-2 searchinput" type="search" placeholder="정보를 입력해주세요"
                                 aria-label="Search">
-                            <button class="btn btn-outline-primary" type="submit">검색</button>
                         </form>
 
                         <!--여기서 부터 상품 목록 테이블 -->
@@ -115,186 +113,7 @@
                             </thead>
                             <!-- 상품 항목은 한 화면에 10개씩 보여주면 될 것 같음 -->
                             <tbody>
-                                <!-- 상품 항목 1 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault1">
-                                            <label class="form-check-label" for="flexCheckDefault1">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>1</td>
-                                    <td>창고 타입 1</td>
-                                    <td>창고 위치 1</td>
-                                    <td>회사명 1</td>
-                                    <td>등록 상품 1</td>
-                                    <td>창고 상태 1</td>
-                                </tr>
 
-                                <!-- 상품 항목 2 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault2">
-                                            <label class="form-check-label" for="flexCheckDefault2">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>2</td>
-                                    <td>창고 타입 2</td>
-                                    <td>창고 위치 2</td>
-                                    <td>회사명 2</td>
-                                    <td>등록 상품 2</td>
-                                    <td>창고 상태 2</td>
-                                </tr>
-
-                                <!-- 상품 항목 3 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault4">
-                                            <label class="form-check-label" for="flexCheckDefault4">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>3</td>
-                                    <td>창고 타입 3</td>
-                                    <td>창고 위치 3</td>
-                                    <td>회사명 3</td>
-                                    <td>등록 상품 3</td>
-                                    <td>창고 상태 3</td>
-                                </tr>
-
-                                <!-- 상품 항목 4 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault4">
-                                            <label class="form-check-label" for="flexCheckDefault4">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>4</td>
-                                    <td>창고 타입 4</td>
-                                    <td>창고 위치 4</td>
-                                    <td>회사명 4</td>
-                                    <td>등록 상품 4</td>
-                                    <td>창고 상태 4</td>
-                                </tr>
-
-                                <!-- 상품 항목 5 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault5">
-                                            <label class="form-check-label" for="flexCheckDefault5">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>5</td>
-                                    <td>창고 타입 5</td>
-                                    <td>창고 위치 5</td>
-                                    <td>회사명 5</td>
-                                    <td>등록 상품 5</td>
-                                    <td>창고 상태 5</td>
-                                </tr>
-
-                                <!-- 상품 항목 6 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault6">
-                                            <label class="form-check-label" for="flexCheckDefault6">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>6</td>
-                                    <td>창고 타입 6</td>
-                                    <td>창고 위치 6</td>
-                                    <td>회사명 6</td>
-                                    <td>등록 상품 6</td>
-                                    <td>창고 상태 6</td>
-                                </tr>
-
-                                <!-- 상품 항목 7 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault7">
-                                            <label class="form-check-label" for="flexCheckDefault7">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>7</td>
-                                    <td>창고 타입 7</td>
-                                    <td>창고 위치 7</td>
-                                    <td>회사명 7</td>
-                                    <td>등록 상품 7</td>
-                                    <td>창고 상태 7</td>
-                                </tr>
-
-                                <!-- 상품 항목 8 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault8">
-                                            <label class="form-check-label" for="flexCheckDefault8">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>8</td>
-                                    <td>창고 타입 8</td>
-                                    <td>창고 위치 8</td>
-                                    <td>회사명 8</td>
-                                    <td>등록 상품 8</td>
-                                    <td>창고 상태 8</td>
-                                </tr>
-
-                                <!-- 상품 항목 9 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault9">
-                                            <label class="form-check-label" for="flexCheckDefault9">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>9</td>
-                                    <td>창고 타입 9</td>
-                                    <td>창고 위치 9</td>
-                                    <td>회사명 9</td>
-                                    <td>등록 상품 9</td>
-                                    <td>창고 상태 9</td>
-                                </tr>
-
-                                <!-- 상품 항목 10 -->
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault10">
-                                            <label class="form-check-label" for="flexCheckDefault10">
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>10</td>
-                                    <td>창고 타입 10</td>
-                                    <td>창고 위치 10</td>
-                                    <td>회사명 10</td>
-                                    <td>등록 상품 10</td>
-                                    <td>창고 상태 10</td>
-                                </tr>
-                                <!-- 추가 상품 항목 2, 3, ... (총 10개까지) -->
                             </tbody>
                         </table>
 
@@ -366,16 +185,16 @@
                                         <div class="modal-body">
                                             <!-- 창고 등록 양식 -->
                                             <form>
-                                                <div class="mb-3">
+                                                <!--                                                 <div class="mb-3">
                                                     <label for="warehouseNumber" class="form-label">창고 번호</label>
                                                     <input type="text" class="form-control" id="warehouseNumber"
                                                         placeholder="창고 번호를 입력하세요">
-                                                </div>
+                                                </div> -->
                                                 <div class="mb-3">
                                                     <label for="warehouseType" class="form-label">창고 타입</label>
                                                     <select class="form-select" id="warehouseType">
-                                                        <option value="option1">Option 1</option>
-                                                        <option value="option2">Option 2</option>
+                                                        <option value="option1">냉장</option>
+                                                        <option value="option2">냉동</option>
                                                         <!-- Add more options as needed -->
                                                     </select>
                                                 </div>
@@ -398,7 +217,6 @@
                                                     <label for="warehouseStatus" class="form-label">창고 상태</label>
                                                     <select class="form-select" id="warehouseStatus">
                                                         <option value="active">운영</option>
-                                                        <option value="inactive">비운영</option>
                                                         <option value="reserved">예약</option>
                                                     </select>
                                                 </div>
@@ -407,7 +225,8 @@
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
                                                 data-bs-dismiss="modal">취소</button>
-                                            <button type="button" class="btn btn-primary">저장</button>
+                                            <button type="button" class="btn btn-primary addStorageInfo"
+                                                id="addStorageInfo">저장</button>
                                         </div>
                                     </div>
                                 </div>
@@ -426,40 +245,246 @@
     </script>
 
     <script>
-        // 페이지가 로드된 후 실행될 JavaScript 코드
         $(document).ready(function () {
-            // 각 테이블 행에 클릭 이벤트 리스너를 추가
-            $("table tbody tr").click(function () {
-                // 클릭한 행의 데이터를 가져옴
-                var rowData = $(this).find("td");
+            console.log("실행");
 
-                // 모달 내용을 업데이트
-                $(".s_name").text("창고 정보 - " + rowData.eq(3).text()); // 창고 위치
-                $(".s_infoAdd").html(
-                    "창고 번호: " + rowData.eq(1).text() + "<br>" +
-                    "창고 타입: " + rowData.eq().text() + "<br>" +
-                    "회사명: " + rowData.eq(5).text() + "<br>" +
-                    "등록 상품: " + rowData.eq(6).text() + "<br>" +
-                    "창고 상태: " + rowData.eq(7).text()
+            var pageSize = 10; // Number of items per page
+            var currentPage = 1; // Current page, initially set to 1
+            var selectedStatus = []; // Selected warehouse statuses
+            var selectedSearchOption = 0; // Selected search option (0: 전체, 1: 창고 번호, 2: 창고 위치, 3: 회사명)
+            var searchKeyword = ""; // Keyword for search
+
+            // Attach click event handlers to status checkboxes
+            $(".form-check-input").change(function () {
+                updateSelectedStatus();
+                fetchDataAndDisplay();
+            });
+
+            // Attach change event handler to search option dropdown
+            $(".form-select").change(function () {
+                selectedSearchOption = parseInt($(this).val());
+                fetchDataAndDisplay();
+            });
+
+            // Attach input event handler to search input
+            $(".searchinput").on("input", function () {
+                searchKeyword = $(this).val().toLowerCase();
+                fetchDataAndDisplay();
+            });
+
+            function updateSelectedStatus() {
+                selectedStatus = [];
+                $(".form-check-input:checked").each(function () {
+                    selectedStatus.push($(this).next().text().trim());
+                });
+            }
+
+            function displayData(data) {
+                var tbody = $("table tbody");
+                tbody.empty(); // Clear existing rows
+
+                // Filter data based on selected warehouse statuses
+                var filteredData;
+                if (selectedStatus.length === 0) {
+                    // If no status is selected, show all data
+                    filteredData = data;
+                } else {
+                    // Otherwise, filter data based on selected statuses
+                    filteredData = data.filter(function (item) {
+                        return selectedStatus.includes(item.con_status);
+                    });
+                }
+
+                // Filter data based on search option and keyword
+                if (selectedSearchOption !== 0 && searchKeyword !== "") {
+                    filteredData = filteredData.filter(function (item) {
+                        var searchField;
+                        switch (selectedSearchOption) {
+                            case 1:
+                                searchField = item.con_num;
+                                break;
+                            case 2:
+                                searchField = item.con_id;
+                                break;
+                            case 3:
+                                searchField = item.u_company;
+                                break;
+                            default:
+                                break;
+                        }
+                        return searchField.toLowerCase().includes(searchKeyword);
+                    });
+                }
+
+                // Calculate start and end index based on current page and page size
+                var startIndex = (currentPage - 1) * pageSize;
+                var endIndex = startIndex + pageSize;
+
+                for (var i = startIndex; i < endIndex && i < filteredData.length; i++) {
+                    var rowData = filteredData[i];
+                    var row = $("<tr>");
+                    row.append(
+                        "<td><div class='form-check'><input class='form-check-input' type='checkbox' value=''></div></td>"
+                    );
+                    row.append("<td>" + rowData.con_num + "</td>");
+                    row.append("<td>" + rowData.con_variety + "</td>");
+                    row.append("<td>" + rowData.con_id + "</td>");
+                    row.append("<td>" + rowData.u_company + "</td>");
+                    row.append("<td>" + rowData.con_product + "</td>");
+                    row.append("<td>" + rowData.con_status + "</td>");
+                    tbody.append(row);
+                }
+
+                // Update pagination buttons
+                updatePaginationButtons(filteredData.length);
+            }
+            
+            // 각 테이블 행에 클릭 이벤트 리스너를 추가
+            $("table tbody tr").click(function (event) {
+                console.log("클릭");
+                // 체크박스를 클릭한 경우 모달을 표시하지 않음
+                if (!$(event.target).is(':checkbox')) {
+                    // 클릭한 행의 데이터를 가져옴
+                    var rowData = $(this).find("td");
+
+                    // 모달 내용을 업데이트
+                    $(".s_name").text("창고 정보 - " + rowData.eq(3).text()); // 창고 위치
+                    $(".s_infoAdd").html(
+                        "창고 번호: " + rowData.eq(1).text() + "<br/>" +
+                        "창고 타입: " + rowData.eq(2).text() + "<br/>" +
+                        "회사명: " + rowData.eq(4).text() + "<br/>" +
+                        "등록 상품: " + rowData.eq(5).text() + "<br/>" +
+                        "창고 상태: " + rowData.eq(6).text()
+                    );
+
+                    // 모달 표시
+                    $(".modal_info").modal("show");
+                }
+            });
+            
+
+            function updatePaginationButtons(totalItems) {
+                var totalPages = Math.ceil(totalItems / pageSize);
+                var pagination = $(".pagination");
+                pagination.empty(); // Clear existing pagination buttons
+
+                // Add Previous button
+                pagination.append(
+                    "<li class='page-item'><a class='page-link' href='#' aria-label='Previous'><span aria-hidden='true'>&lt;</span></a></li>"
                 );
 
-                // 모달 표시
-                $(".modal_info").modal("show");
-            });
-        });
-    </script>
+                // Add page buttons
+                for (var i = 1; i <= totalPages; i++) {
+                    pagination.append("<li class='page-item'><a class='page-link' href='#'>" + i + "</a></li>");
+                }
 
-    <script>
+                // Add Next button
+                pagination.append(
+                    "<li class='page-item'><a class='page-link' href='#' aria-label='Next'><span aria-hidden='true'>&gt;</span></a></li>"
+                );
+
+                // Attach click event handlers to page buttons
+                pagination.find("a.page-link").click(function () {
+                    var page = parseInt($(this).text());
+                    if (!isNaN(page)) {
+                        currentPage = page;
+                        fetchDataAndDisplay();
+                    } else if ($(this).attr('aria-label') === 'Previous' && currentPage > 1) {
+                        currentPage--;
+                        fetchDataAndDisplay();
+                    } else if ($(this).attr('aria-label') === 'Next' && currentPage < totalPages) {
+                        currentPage++;
+                        fetchDataAndDisplay();
+                    }
+                });
+            }
+
+            function fetchDataAndDisplay() {
+                $.ajax({
+                    type: 'GET',
+                    url: '/getStorage',
+                    dataType: 'json',
+                    success: function (data) {
+                        console.log('서버에서 받은 데이터:', data);
+
+                        // Display data for the current page
+                        displayData(data);
+                    },
+                    error: function (error) {
+                        console.error('오류 발생:', error);
+                    }
+                });
+            }
+
+            // Initial data fetch and display
+            fetchDataAndDisplay();
+        });
+
+        $(document).on('click', 'table tbody tr', function(event) {
+                console.log("클릭");
+                // 체크박스를 클릭한 경우 모달을 표시하지 않음
+                if (!$(event.target).is(':checkbox')) {
+                    // 클릭한 행의 데이터를 가져옴
+                    var rowData = $(this).find("td");
+
+                    // 모달 내용을 업데이트
+                    $(".s_name").text("창고 정보 - " + rowData.eq(3).text()); // 창고 위치
+                    $(".s_infoAdd").html(
+                        "창고 번호: " + rowData.eq(1).text() + "<br>" +
+                        "창고 타입: " + rowData.eq(2).text() + "<br>" +
+                        "회사명: " + rowData.eq(4).text() + "<br>" +
+                        "등록 상품: " + rowData.eq(5).text() + "<br>" +
+                        "창고 상태: " + rowData.eq(6).text()
+                    );
+
+                    // 모달 표시
+                    $(".modal_info").modal("show");
+                }
+            });
+
+
+
         // JavaScript로 모달 열기
         document.getElementById('addStorage').addEventListener('click', function () {
             var myModal = new bootstrap.Modal(document.getElementById('addStorageModal'));
             myModal.show();
         });
 
-        // JavaScript로 모달 닫기
-        document.getElementById('saveProductButton').addEventListener('click', function () {
-            var myModal = new bootstrap.Modal(document.getElementById('addStorageModal'));
-            myModal.hide();
+        $("#addStorageModal").on("hidden.bs.modal", function () {
+            // 모달이 닫힐 때 폼을 초기화합니다
+            $("#addStorageModal form")[0].reset();
+        });
+
+        $("#addStorageModal").on("click", ".btn-primary", function () {
+            // 폼 데이터 가져오기
+            var formData = {
+                u_id: "id",
+                u_company: $("#companyName").val(),
+                con_id: $("#warehouseLocation").val(), // 창고 위치는 con_id로 수정
+                con_variety: $("#warehouseType option:selected").text(),
+                con_pro_variety: $("#warehouseType option:selected").text(),
+                con_product: $("#registeredProducts").val(),
+                con_status: $("#warehouseStatus option:selected").text()
+                // 다른 필드들을 필요에 따라 추가하세요
+            };
+
+            // 서버로 데이터 전송
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                url: "/insertStorage",
+                data: JSON.stringify(formData),
+                success: function (response) {
+                    // 성공 처리 (선택 사항)
+                    console.log(response);
+                    // 모달을 닫습니다.
+                    $("#addStorageModal").modal("hide");
+                },
+                error: function (error) {
+                    // 오류 처리 (선택 사항)
+                    console.error(error);
+                }
+            });
         });
     </script>
 </body>

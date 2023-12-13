@@ -103,20 +103,20 @@
                             <th>주문 내용</th>
                             <th>주문자</th>
                             <th>주문 일자</th>
-                            <th>배송 주기</th>
+                            <th>배송일</th>
                             <th>상세 보기</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
+                    <tbody id="deliveryTableBody">
+<!--                         <tr>
                             <td>1</td>
                             <td>입금 확인</td>
                             <td>상품 A 구매</td>
                             <td>고객1</td>
                             <td>2023-10-10</td>
                             <td>1개월</td>
-                            <td><a href="admin_delivery_details.html" class="btn btn-primary">상세 보기</a></td>
-                        </tr>
+                            <td><a href="delivery_details.jsp" class="btn btn-primary">상세 보기</a></td>
+                        </tr> -->
                         <!-- 다른 주문들을 이곳에 추가 -->
                     </tbody>
                 </table>
@@ -129,6 +129,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>
+    <script src="resources/js/delivery.js"></script>
 </body>
 
 </html>

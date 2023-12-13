@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fs.mapper.DeliveryMapper">
+
+	<select id="getReserveList" resultType="com.fs.model.ReserveVO">
+        SELECT * FROM reserve_delivery ORDER BY red_delivery_date DESC;
+    </select>
+
+    <select id="getRoutineList" resultType="com.fs.model.RoutineVO">
+        SELECT * FROM routine_delivery ORDER BY rd_start DESC;
+    </select>
+
+    <select id="getTodayList" resultType="com.fs.model.TodayVO">
+        SELECT * FROM today_delivery ORDER BY td_date DESC;
+    </select> 
+    
+    <select id="getAllDelivery" resultType="com.fs.model.DeliveryVO">
+        SELECT 
+            red_num AS order_num,
+            red_status AS order_status,
+            red_product AS order_content,
+            u_id AS order_user,
+            red_delivery_date AS order_date,
+            red_deli_date AS delivery_date
+        FROM reserve_delivery
+        UNION ALL
+        SELECT 
+            rd_num AS order_num,
+            rd_status AS order_status,
+            rd_product AS order_content,
+            u_id AS order_user,
+            rd_start AS order_date,
+            rd_cycle1 AS delivery_date
+        FROM routine_delivery
+        UNION ALL
+        SELECT 
+            td_num AS order_num,
+            td_status AS order_status,
+            td_product AS order_content,
+            u_id AS order_user,
+            td_date AS order_date,
+            td_date AS delivery_date
+        FROM today_delivery
+    </select>
+    
+</mapper>
